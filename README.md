@@ -41,8 +41,9 @@ The program "fibez" can be run from the command line with a single argument corr
 Other files can be modifed based on simulation needs. The file 'potential.h' may be modified if a different 2-body cohesive potential is needed. Currently, an LJ type potential is used. The file 'headers.h' may also be modified to change the simulation parameters.
 
 To run the program, simply type
+```
 ./fibez data.test
-
+```
 Program output
 ==============
 
