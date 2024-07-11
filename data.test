@@ -1,0 +1,44 @@
+Fiber-network Description ( number of control points, cubic beziers, fibers, bezier types, and box bounds )
+
+14 cpoints
+4 cbeziers
+2 fibers
+
+1 cbezier type
+
+-10.0 10.0 xlo xhi
+-10.0 10.0 ylo yhi
+-10.0 10.0 zlo zhi
+
+BezConstants ( type, EA, EI, rho )
+
+1 100.0 0.1 1.0
+
+Control points ( id, positions (x,y,z), momenta (px,py,pz), fixed-0/free-1 (f,f,f) )
+
+1 0.0 0.025 0.0 0.0 0.0 0.0 0 0 0
+2 1.5 1.0 0.0 0.0 0.0 0.0 1 1 0
+3 3.0 1.5 0.0 0.0 0.0 0.0 1 1 0
+4 4.5 1.5 0.0 0.0 0.0 0.0 1 1 0
+5 6.0 1.5 0.0 0.0 0.0 0.0 1 1 0
+6 7.5 1.0 0.0 0.0 0.0 0.0 1 1 0
+7 9.0 0.025 0.0 0.0 0.0 0.0 0 0 0
+8 0.0 -0.025 0.0 0.0 0.0 0.0 0 0 0
+9 1.5 -1.0 0.0 0.0 0.0 0.0 1 1 0
+10 3.0 -1.5 0.0 0.0 0.0 0.0 1 1 0
+11 4.5 -1.5 0.0 0.0 0.0 0.0 1 1 0
+12 6.0 -1.5 0.0 0.0 0.0 0.0 1 1 0
+13 7.5 -1.0 0.0 0.0 0.0 0.0 1 1 0
+14 9.0 -0.025 0.0 0.0 0.0 0.0 0 0 0
+
+Cubic Beziers ( id, type, control point ids (cp1,cp2,cp3,cp4), ref_length)
+
+1 1 1 2 3 4 4.5
+2 1 4 5 6 7 4.5
+3 1 8 9 10 11 4.5
+4 1 11 12 13 14 4.5
+
+Fibers ( id, list of comprising cubic bezier ids (cb1, cb2, ...) )
+
+1 1 2
+2 3 4
