@@ -19,7 +19,8 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 Availability
 ============
 
-The current stable version of Fibez is available from Github:
+The current stable version of Fibez is available from Github.
+(https://github.com/anirban-pal/fibez)
 
 Installation
 ============
